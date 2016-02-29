@@ -13,11 +13,16 @@ module.exports = React.createClass({
           <Navbar projectName={"CypherPoker"} callToAction={'Join our Slack'}/>
 
           <EmptySection>
-            <h1>CypherPoker</h1>
-            <p>Decentralized, rake-free, cryptographic Poker.</p>
-            <a className="btn btn-sm btn-primary" href="#">View on Github</a>
-            <a className="btn btn-sm btn-primary" href="#">Join our Slack</a>
-            <a className="btn btn-sm btn-primary" href="#">Watch the demo</a>
+            <div className="col-md-4 col-md-offset-1">
+              <img style={{position: 'relative', top: -5 + 'rem'}} className="img-fluid" src="img/cypher-poker-logo.jpg" />
+            </div>
+            <div className="col-md-offset-1 col-md-6">
+              <h1>CypherPoker</h1>
+              <p>Decentralized, rake-free, open-source, cryptographic Texas hold em.</p>
+              <a style={{marginRight: '5px'}} className="btn btn-sm btn-primary" href="#">View on Github</a>
+              <a style={{marginRight: '5px'}} className="btn btn-sm btn-primary" href="#">Join our Slack</a>
+              <a className="btn btn-sm btn-primary" href="#">Watch the demo</a>
+            </div>
           </EmptySection>
 
           <Footer projectName={"CypherPoker"} />
