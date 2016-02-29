@@ -1,0 +1,38 @@
+//Bootstrap variable overrides
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700');
+
+$font-family-sans-serif:     "Open Sans", Helvetica, Arial, sans-serif !default;
+$font-size-h1:              2.3rem;
+$line-height:               1.75;
+$font-size-base:            1.2rem;
+
+$headings-font-weight: 300;
+
+//Colours
+$brand-primary:             #007ee5; //Dropbox Blue
+$statik-brand-secondary:    orange;
+
+$body-bg:                   white;
+
+$enable-transitions:        true;
+$navbar-padding-vertical:   2em;
+$enable-rounded:            true;
+
+
+//Statik
+
+@import '../statik.scss';
+
+// section{
+
+// 	@include vertical-padding(8rem 0);
+
+// 	&:nth-of-type(2){
+// 		@include dark;
+
+// 		// background-image: url('http://susannoonanmd.com/wp-content/uploads/2013/07/bigstock-Beautiful-nature-at-morning-in-44771632.jpg');
+// 		// background-size: cover;
+// 	}
+// }

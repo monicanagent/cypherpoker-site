@@ -1,0 +1,32 @@
+//Section notes:
+
+// Use _navbar-dark.html.erb
+
+
+//Bootstrap overrides
+
+$brand-primary:             #A52921;
+$statik-brand-secondary:    orange;
+
+$enable-transitions:        true;
+$navbar-padding-vertical:   1.4em;
+$enable-rounded:            true;
+$body-bg:                   #fff;
+
+//Fonts
+
+@import url(https://fonts.googleapis.com/css?family=Righteous|Dosis:400,600|Play|Exo:400,600);
+
+$font-family-sans-serif:     "Exo", Helvetica, Arial, sans-serif !default;
+$font-family-serif:          Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:      Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:           $font-family-sans-serif !default;
+
+$font-size-h1:              2.3rem;
+
+//Statik variables
+
+$statik-section-padding: 10rem;
+
+
+@import '../statik.scss';
