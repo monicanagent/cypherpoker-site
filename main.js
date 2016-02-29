@@ -23333,7 +23333,7 @@ module.exports = React.createClass({
           React.createElement(
             'p',
             null,
-            'Decentralized, rake-free, open-source, cryptographic Texas hold em.'
+            'Decentralized, rake-free, open-source, cryptographic Texas hold\'em.'
           ),
           React.createElement(
             'a',
