@@ -23337,12 +23337,12 @@ module.exports = React.createClass({
           ),
           React.createElement(
             'a',
-            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: '#' },
+            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: 'https://github.com/monicanagent/cypherpoker/' },
             'View on Github'
           ),
           React.createElement(
             'a',
-            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: '#' },
+            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: 'https://cypherpoker.slack.com/' },
             'Join our Slack'
           ),
           React.createElement(
