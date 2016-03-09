@@ -23538,7 +23538,7 @@ module.exports = React.createClass({
               { className: "form-inline pull-md-right" },
               React.createElement(
                 "a",
-                { className: "btn btn-success-outline", type: "submit" },
+                { className: "btn btn-success-outline", type: "submit", href: 'https://cypherpoker.slack.com/' },
                 this.props.callToAction
               )
             )
