@@ -23337,12 +23337,12 @@ module.exports = React.createClass({
           ),
           React.createElement(
             'a',
-            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: 'https://github.com/monicanagent/cypherpoker/' },
+            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: 'https://github.com/monicanagent/cypherpoker/', target: "_self" },
             'View on Github'
           ),
           React.createElement(
             'a',
-            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: 'https://cypherpoker.slack.com/' },
+            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: 'https://cypherpoker.slack.com/', target: "_self" },
             'Join our Slack'
           ),
           React.createElement(
@@ -23538,7 +23538,7 @@ module.exports = React.createClass({
               { className: "form-inline pull-md-right" },
               React.createElement(
                 "a",
-                { className: "btn btn-success-outline", type: "submit", href: 'https://cypherpoker.slack.com/' },
+                { className: "btn btn-success-outline", type: "submit", href: 'https://cypherpoker.slack.com/', target: "_self" },
                 this.props.callToAction
               )
             )
