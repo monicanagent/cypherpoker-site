@@ -23352,7 +23352,7 @@ module.exports = React.createClass({
           ),
 		   React.createElement(
 			'iframe',
-			{ style: {width: '250px', height:'400px', border:'0px'}, src: 'http://www.cypherpoker.org/slack' }
+			{ style: {width: '100%', height:'480px', border:'0px', margin: "0px"}, src: 'http://www.cypherpoker.org/slack' }
 		  )
         )
       ),
