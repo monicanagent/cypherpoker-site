@@ -23342,7 +23342,7 @@ module.exports = React.createClass({
           ),
           React.createElement(
             'a',
-            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: 'https://cypherpoker.slack.com/', target: "_top" },
+            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: 'slack', target: "_top" },
             'Join our Slack'
           ),
           React.createElement(
@@ -23350,6 +23350,10 @@ module.exports = React.createClass({
             { className: 'btn btn-sm btn-primary', href: '#' },
             'Watch the demo'
           )
+		   React.createElement(
+          'iframe',
+          { className: 'col-md-offset-1 col-md-6', style: 'width:250px;height:400px;border:0px;', href: 'http://www.cypherpoker.org/slack/' },
+		  )
         )
       ),
       React.createElement(Footer, { projectName: "CypherPoker" })
@@ -23538,7 +23542,7 @@ module.exports = React.createClass({
               { className: "form-inline pull-md-right" },
               React.createElement(
                 "a",
-                { className: "btn btn-success-outline", type: "submit", href: 'https://cypherpoker.slack.com/', target: "_top" },
+                { className: "btn btn-success-outline", type: "submit", href: 'slack', target: "_top" },
                 this.props.callToAction
               )
             )
