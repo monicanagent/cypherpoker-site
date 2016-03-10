@@ -23351,8 +23351,8 @@ module.exports = React.createClass({
             'Watch the demo'
           )
 		   React.createElement(
-          'iframe',
-          { className: 'col-md-offset-1 col-md-6', style: 'width:250px;height:400px;border:0px;', href: 'http://www.cypherpoker.org/slack/' },
+			'iframe',
+			{ style: 'width:250px;height:400px;border:0px;', href: 'http://www.cypherpoker.org/slack/' }
 		  )
         )
       ),
