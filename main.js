@@ -23349,7 +23349,7 @@ module.exports = React.createClass({
             'a',
             { className: 'btn btn-sm btn-primary', href: '#' },
             'Watch the demo'
-          )
+          ),
 		   React.createElement(
 			'iframe',
 			{ style: 'width:250px;height:400px;border:0px;', href: 'http://www.cypherpoker.org/slack/' }
