@@ -23342,7 +23342,7 @@ module.exports = React.createClass({
           ),
           React.createElement(
             'a',
-            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', onclick: '$("signupform").show()'},
+            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', handleClick: 'function(event){$("signupform").show();}'},
             'Join our Slack'
           ),
           React.createElement(
