@@ -23342,7 +23342,7 @@ module.exports = React.createClass({
           ),
           React.createElement(
             'a',
-            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', onClick: function(){alert("okay");$("#signupform").show();}},
+            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', onClick: function(){$("#signupform").show();}},
             'Join our Slack'
           ),
           React.createElement(
@@ -23542,7 +23542,7 @@ module.exports = React.createClass({
               { className: "form-inline pull-md-right" },
               React.createElement(
                 "a",
-                { className: "btn btn-success-outline", type: "submit", onclick: '$("signupform").show()' },
+                { className: "btn btn-success-outline", type: "submit", onClick: function(){$("#signupform").show();} },
                 this.props.callToAction
               )
             )
