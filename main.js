@@ -23505,7 +23505,7 @@ module.exports = React.createClass({
 								),		
 								React.createElement(
 									"span",
-									{style:{color:"#EAEAEA"}},
+									{style:{color:"#E0E0E0"}},
 									" This site is licensed under a Creative Commons Attribution 4.0 International License."
 								)
 							)
