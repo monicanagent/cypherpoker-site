@@ -23347,7 +23347,7 @@ module.exports = React.createClass({
           ),
           React.createElement(
             'a',
-            { className: 'btn btn-sm btn-primary', href: 'https://www.youtube.com/channel/UCDLVrFF-qenEZOEBhXWicdg', target="_top" },
+            { className: 'btn btn-sm btn-primary', href: 'https://www.youtube.com/channel/UCDLVrFF-qenEZOEBhXWicdg', target: '_top' },
             'Watch the demo'
           ),
 		   React.createElement(
