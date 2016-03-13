@@ -23522,11 +23522,21 @@ module.exports = React.createClass({
                                 null,
                                 React.createElement(
                                     "a",
+                                    { href: "https://www.reddit.com/r/cypherpoker/", target: "_top" },
+                                    React.createElement("i", { "class": "fa fa-reddit" }),
+                                    "Reddit"
+                                )
+                            ),
+							React.createElement(
+                                "li",
+                                null,
+                                React.createElement(
+                                    "a",
                                     { href: "https://twitter.com/cypherpoker", target: "_top" },
                                     React.createElement("i", { "class": "fa fa-twitter" }),
                                     "Twitter"
                                 )
-                            )
+                            )							
                         )
                     )
                 ),
