@@ -23522,7 +23522,7 @@ module.exports = React.createClass({
                                 null,
                                 React.createElement(
                                     "a",
-                                    { href: "https://twitter.com/cypherpoker" },
+                                    { href: "https://twitter.com/cypherpoker", target: "_top" },
                                     React.createElement("i", { "class": "fa fa-twitter" }),
                                     "Twitter"
                                 )
