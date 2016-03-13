@@ -23418,7 +23418,7 @@ module.exports = React.createClass({
                             "CypherPoker is an open source, peer-to-peer Texas Hold'em poker game. It uses strong cryptography and smart contracts to eliminate the need for centralized, trusted third parties."
                         )
                     ),
-                    React.createElement(
+                    /*React.createElement(
                         "div",
                         { className: "col-md-2 col-md-offset-1" },
                         React.createElement(
@@ -23461,14 +23461,14 @@ module.exports = React.createClass({
                                 )
                             )
                         )
-                    ),
+                    ),*/
                     React.createElement(
                         "div",
                         { className: "col-md-2" },
                         React.createElement(
                             "h5",
                             null,
-                            "Follow Us"
+                            "Follow CypherPoker"
                         ),
                         React.createElement(
                             "ul",
