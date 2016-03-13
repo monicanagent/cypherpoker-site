@@ -23462,13 +23462,57 @@ module.exports = React.createClass({
                             )
                         )
                     ),*/
+					React.createElement(
+                        "div",
+                        { className: "col-md-2 col-md-offset-1" },
+                        React.createElement(
+                            "h5",
+                            null,
+                            ""
+                        ),
+                        React.createElement(
+                            "ul",
+                            { className: "list-unstyled" },
+                            React.createElement(
+                                "li",
+                                null,
+                                React.createElement(
+                                    "a",
+                                    { href: "" },
+                                    ""
+                                )
+                            )
+                        )
+                    ),
                     React.createElement(
                         "div",
                         { className: "col-md-2" },
                         React.createElement(
                             "h5",
                             null,
-                            "Follow CypherPoker"
+                            ""
+                        ),
+                        React.createElement(
+                            "ul",
+                            { className: "list-unstyled" },
+                            React.createElement(
+                                "li",
+                                null,
+                                React.createElement(
+                                    "a",
+                                    { href: "" },
+                                    ""
+                                )
+                            )
+                        )
+                    ),
+                    React.createElement(
+                        "div",
+                        { className: "col-md-2" },
+                        React.createElement(
+                            "h5",
+                            null,
+                            "Follow Us"
                         ),
                         React.createElement(
                             "ul",
