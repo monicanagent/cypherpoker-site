@@ -23500,13 +23500,13 @@ module.exports = React.createClass({
 								{rel:'license', href:'http://creativecommons.org/licenses/by/4.0/'},
 								React.createElement(
 									"img",
-									{alt: 'Creative Commons License', src:'https://i.creativecommons.org/l/by/4.0/88x31.png'},
+									{alt: 'Creative Commons License', src:'https://i.creativecommons.org/l/by/4.0/80x15.png'},
 									null
 								),		
 								React.createElement(
 									"span",
-									{},
-									"This work is licensed under a Creative Commons Attribution 4.0 International License."
+									{style:{color:"#EAEAEA}}},
+									" This site is licensed under a Creative Commons Attribution 4.0 International License."
 								)
 							)
                         )						
