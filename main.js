@@ -23526,7 +23526,7 @@ module.exports = React.createClass({
                                     React.createElement("i", { "class": "fa fa-reddit" }),
                                     "Reddit"
                                 )
-                            ),
+                            )/*,
 							React.createElement(
                                 "li",
                                 null,
@@ -23536,7 +23536,8 @@ module.exports = React.createClass({
                                     React.createElement("i", { "class": "fa fa-twitter" }),
                                     "Twitter"
                                 )
-                            )							
+                            )	
+							*/
                         )
                     )
                 ),
