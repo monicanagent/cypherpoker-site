@@ -23338,7 +23338,7 @@ module.exports = React.createClass({
 		   React.createElement(
             'a',
             { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: 'http://www.cypherpoker.org/play', target: "_top" },
-            'Try it Out'
+            '   Try it Out   '
           ),
           React.createElement(
             'a',
