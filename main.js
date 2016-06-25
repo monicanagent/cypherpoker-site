@@ -23338,7 +23338,7 @@ module.exports = React.createClass({
 		   React.createElement(
             'a',
             { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: 'http://www.cypherpoker.org/play', target: "_top" },
-            '   Try it Out   '
+            '*   Try it Out   *'
           ),
           React.createElement(
             'a',
@@ -23352,8 +23352,8 @@ module.exports = React.createClass({
           ),
           React.createElement(
             'a',
-            { className: 'btn btn-sm btn-primary', href: 'https://www.youtube.com/watch?v=Zzy0ZKpnmdU', target: '_top' },
-            'Watch the demo'
+            { className: 'btn btn-sm btn-primary', href: 'https://www.youtube.com/watch?v=ZNZ_cNFyyyQU', target: '_top' },
+            'Watch the Introduction'
           ),
 		   React.createElement(
 			'iframe',
