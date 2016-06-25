@@ -23335,6 +23335,11 @@ module.exports = React.createClass({
             null,
             'Decentralized, rake-free, open-source, cryptographic Texas hold\'em.'
           ),
+		   React.createElement(
+            'a',
+            { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: 'http://www.cypherpoker.org/play', target: "_top" },
+            'Try it Out'
+          ),
           React.createElement(
             'a',
             { style: { marginRight: '5px' }, className: 'btn btn-sm btn-primary', href: 'https://github.com/monicanagent/cypherpoker/', target: "_top" },
