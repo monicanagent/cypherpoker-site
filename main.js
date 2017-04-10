@@ -23342,7 +23342,7 @@ module.exports = React.createClass({
           ),
 		  React.createElement(
             'a',
-            { style: {marginTop: '5px', width: '100%' }, className: 'btn btn-sm btn-secondary', href: 'https://www.medium.com/cypherpoker', target: '_top' },
+            { style: {marginTop: '5px', width: '100%' }, className: 'btn btn-sm btn-secondary', href: 'https://medium.com/cypherpoker/cypherpoker-v2-0-alpha-has-arrived-703dfdff1c6e', target: '_top' },
             'Learn More About This Release'
           ),
 		  React.createElement(
